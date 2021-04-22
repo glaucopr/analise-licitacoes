@@ -8,14 +8,15 @@ Análise dos Vencedores de Licitações Públicas por Agrupamento
 Glauco Pires Rabello       
 Turma 2019.1
 
-Tags:
+Tags
+----
 Dados Abertos
 Portal Transparência
 
 
 
 Arquivos disponibilizados
-
+-------------------------
 licitacoes_criacao_amostras.sql                       ; consulta para consolidação dos dados no banco de dados
 amostra_cnpj.zip                                      ; arquivo .csv com os dados extraidos consolidados
 Analise Vencedores Licitaçoes Publicas.pdf            ; resumo das analises realizadas neste trabalho 
@@ -25,12 +26,14 @@ Analise Vencedores Licitaçoes Publicas.pdf            ; resumo das analises rea
 
 
 
-Objetivo:
+Objetivo
+--------
 
 Estudar o comportamento e padrões do dataset dos vencedores das licitações públicas, apontar similaridade e outliers. 
 
 
 Fontes informacionais
+---------------------
 
 Para este estudo foram usadas as bases de dados contidas nos portais relacionados abaixo. Não foram usadas quaisquer outras bases de dados que não sejam públicas.
 
@@ -48,6 +51,7 @@ https://dados.gov.br/
 
 
 Estruturação Informacional
+--------------------------
 
 Foram baixados e carregados os seguintes arquivos para construção de uma base de amostras para executar os testes.
 
@@ -73,15 +77,15 @@ O período de informações extraídas compreendeu do período jan-out 2020.
 
 
 
-Conclusões finais 
+Conclusões Finais 
+-----------------
+Identificados clusters atraves de similaridades por Modalidades de Compra.
 
-	Identificados clusters por Modalidades de Compra.
+Caso selecionamos outra modalidade ( ou adicionar outros filtros ) o resultado gerado pode ser diferente. Nestes casos sempre serão necessários a reparametrização diferente no DBSCAN.
 
-	Caso selecionamos outra modalidade ( ou adicionar outros filtros ) o resultado gerado pode ser diferente. Nestes casos sempre serão necessários a reparametrização diferente no DBSCAN.
+Conseguimos demonstrar que a clusterização é viável com as variáveis disponíveis neste dataset publico e realizar a segmentação com as similaridades descobertas. 
 
-	Conseguimos demonstrar que a clusterização é viável com as variáveis disponíveis neste dataset publico e realizar a segmentação com as similaridades descobertas. 
-
-	Sempre que houver alguma necessidade adicional o algortimo pode ser reexecutado diversas vezes , com novos parametros para melhorar mais o resultado. Haverá um custo de processamento maior se a quantidade de amostras do dataset for maior e na quantidade de iterações necessárias para comparação dos resultados.
+Sempre que houver alguma necessidade adicional o algortimo pode ser reexecutado diversas vezes , com novos parametros para melhorar mais o resultado. Haverá um custo de processamento maior se a quantidade de amostras do dataset for maior e na quantidade de iterações necessárias para comparação dos resultados.
   
   
   
