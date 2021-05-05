@@ -22,10 +22,9 @@ Foi construída uma base informacional, carregando os arquivos disponibilizados 
 2. Dados públicos de CNPJ ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
 3. Dados Abertos ( https://dados.gov.br/ )
 
-
 ------------------------
 ### Estruturação Informacional
-Foram baixados dos site mencionados e carregados os seguintes arquivos para construção de uma base de amostras para executar os testes.
+Foram baixados destes sites acima mencionados e carregados no banco de dados os seguintes arquivos para construção de uma base de amostras para executar analises.
 
 #### Licitações 
     • ItemLicitação ; lista dos vencedores por licitação
@@ -41,69 +40,66 @@ Foram baixados dos site mencionados e carregados os seguintes arquivos para cons
     • Base completa de CNPJ – referencia nov/2020
     • Dominios: Motivo Situação Cadastral, CNAE e qualificação sócio representante
 
-obs: O período de referencias das informações extraídas foi de janeiro/2020
-
+obs: O período de referencia das informações extraídas é de janeiro/2020
 
 ------------------------------
-### Preparação
+### Preparação de Dados
 
-Para este trabalho foram carregados bases grandes, eventualmente foi necessário reduzir o volume , retirando Pessoas Físicas da analise e reduzindo a mostra em apenas um unico mês de referência.
+Como para este estudo foi necessário carregar grande volume de dados, próprias destas informações, foi necessário reduzir o volume de registros, retirando Pessoas Físicas da analise e reduzindo a amostra em apenas um unico mês de referência.
 
-Foi criado um arquivo com estes dados tratados:  amostra_cnpj_202001.zip 
+Uma cópia dos dados tratados estão disponíveis no arquivo amostra_cnpj_202001.zip 
 
 -----------------------------
 ### Análise Exploratória
-Nesta etapa, já com os dados carregados no banco de dados, foi realizado fase uma análise inicial para identificar quais dados poderiam ser aproveitadas nas análises seguintes. 
+Nesta etapa, já com os dados prontos no banco de dados, foi realizado fase uma análise inicial exploratória para identificar quais dados poderiam ser aproveitadas nas etapas  seguintes. 
 - Códigos contidos no arquivo 1-licitacoes_cnpj_analise_exploratoria.ipynb
 
 ![AnlseExplor1](imagens/1.analise_exploratoria.png)
 ![AnlseExplor2](imagens/2.analise_exploratoria.png)
 
-Com os dados disponíveis foi iniciada a modelagem  para a identificação de possíveis similaridades.
+A seguir foi iniciada a modelagem para a identificação de possíveis similaridades.
 
 ![Jupyter](imagens/3.AmostraJupyter.png)
 
 ----------------------------
-#### Análise variável ‘Modalidade de Compras’
-Como esta variável é a mais importantes do dataset, pois é a que define o motivo da licitação, foi realizado um teste no dataset mantendo esta informação para confirmação.
+### Análise variável ‘Modalidade de Compras’
+Como esta variável é uma das mais importantes do dataset, pois é a que define o motivo da licitação, foi realizado um teste neste dataset mantendo esta informação para verificação.
 
-No processo de construção de modelo, para melhor a analise convertendo as váriaveis categóricas em numéricas por Encoding e depois aplicando o método de PCA.
+No processo de construção de modelo, para melhor analise foram convertidas as váriaveis categóricas em numéricas por Encoding e depois aplicando o método de PCA.
 
-Nesta etapa descobrimos algumas variáveis que deverão definir este modelo. ( foi escolhido 80% para explicar esses dados )
+Nesta etapa descobrimos algumas variáveis que poderão definir este modelo. ( foi escolhido 80% para explicar esses dados )
 
 ![VarianciasComPCA](imagens/4.VarianciasPCA.png)
 
-
 ####Teste com método K-Means
-Este teste foi gerado para identificar se seria possível usá-lo, pois é um método de fácil implantação. Desta maneira verificamos o K através da inércia do modelo e analisando se o modelo gerado trará bons resultados.
+Este teste foi gerado para identificar se seria possível usá-lo, pois é um método popular e de fácil implantação. Desta maneira verificamos o K pela inércia do modelo e em seguida analisando se o modelo gerado trará bons resultados.
 Após a execução do K-Means, visualmente chegamos a este resultado que pode ser facilmente interpretado como um método ruim para este dataset.
 
 ![KMeans](imagens/5.KMeans.png)
 
-####Algoritmo DBSCAN
+###Algoritmo DBSCAN
 
-Escolha deste método por não ter uma quantidade de clusters pré-definidos e encontrar quase toda as formas. 
+Escolha deste método por não ter uma quantidade de clusters pré-definidos e podemos encontrar quase toda as formas. 
 
 Através de algumas inferências podemos escolher as parametrizações melhores.
 
-Chegamos a um ótimo resultado desde já. 
+Ja identificamos um ótimo resultado desde já. 
 
 ![DBSCAN](imagens/6.DBSCAN.png)
 
-Uma reparametrização no algoritmo pode melhorar este resultado para um ajuste fino. Observando que é necessário equilibrar a quantidade de clusters e outliers e as frequências individuais dos clusters.
+Uma reparametrização no algoritmo pode servir melhorar este resultado através de um ajuste fino. Observando que é necessário equilibrar a quantidade de clusters e outliers e as frequências individuais dos clusters.
 
 Alguns outliers gerados foram identificados desta maneira, pois estavam contidos em uma faixa com poucas amostras. Estes outliers também poderiam ser identificados como um pequeno cluster rotulado. 
-
 
 Conforme figura abaixo, podemos questionar a parametrização do modelo e realizar ajustes.
 
 ![SegAmostras](imagens/7.ClustersPoucasAmostras.png)
 
-A variável ano_ini_atividade tambem ajudou na identificação de alguns outliers, mas pontos mais isolados.
+A variável ano_ini_atividade tambem ajudou na identificação de alguns outliers, mas com pontos mais isolados.
 
 ![Outliers](imagens/8.Outliers.png)
 
-Assim concluímos que os clusters identificados (Gráfico 8) se encaixam “exatamente” com as amostras de Modalidade de Compras. 
+Assim concluímos que os clusters identificados se encaixam “exatamente” com as amostras de Modalidade de Compras. 
 
 ![Modalidades](imagens/9.Modalidades.png)
 
@@ -111,9 +107,11 @@ Assim concluímos que os clusters identificados (Gráfico 8) se encaixam “exat
 
 -----------------------
 
-### Analise por Modalidade de Compra
+### Analise por um tipo de Modalidade de Compra
 
 Foi escolhido a modalidade com maior quantidade de amostras para prosseguimento das analise.
+
+![TotalClusters](imagens/11.TotaisClusters.png)
 
 Após a execução do algoritmo DBSCAN foi encontrado este resultado.
 
