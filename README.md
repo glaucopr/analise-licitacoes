@@ -11,16 +11,17 @@
 --------------
 
 ### Sumário
-Estudar o comportamento e padrões da base pública dos vencedores das licitações públicas, apontar suas similaridades e outliers. 
-Foi construída uma base informacional, carregando os arquivos disponibilizados nas bases públicas, realizando tratamentos para transformação dos dados gerando informações para as devidas análises utilizando ferramentas de Data Mining.   
+Estudar o comportamento e identificar padrões da base pública dos vencedores das licitações públicas, apontar suas similaridades e eventuais outliers.
+Foi construída uma base informacional, carregando os arquivos disponibilizados nestas bases públicas, realizando mais tratamentos para transformações informacionais e utilizando em seguida para as devidas análises utilizando ferramentas de Data Mining.   
 
 
 ### Arquivos Públicos
-    Portal da Transparência ( http://www.portaltransparencia.gov.br/download-de-dados )
-    Dados públicos de CNPJ ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
-    Dados Abertos ( https://dados.gov.br/ )
+    • Portal da Transparência ( http://www.portaltransparencia.gov.br/download-de-dados )
+    • Dados públicos de CNPJ ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
+    • Dados Abertos ( https://dados.gov.br/ )
 
 
+------------------------
 ### Estruturação Informacional
 Foram baixados dos site mencionados e carregados os seguintes arquivos para construção de uma base de amostras para executar os testes.
 
@@ -41,8 +42,8 @@ Foram baixados dos site mencionados e carregados os seguintes arquivos para cons
 obs: O período de informações extraídas compreendeu do período jan-out 2020.
 
 
-
-#### Conclusões Finais 
+-----------------------
+### Conclusões Finais 
 Identificados clusters atraves de similaridades por Modalidades de Compra.
 
 Caso selecionamos outra modalidade ( ou adicionar outros filtros ) o resultado gerado pode ser diferente. Nestes casos sempre serão necessários a reparametrização diferente no DBSCAN.
