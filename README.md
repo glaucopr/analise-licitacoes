@@ -12,64 +12,37 @@
 
 ### Sumário
 Estudar o comportamento e padrões da base pública dos vencedores das licitações públicas, apontar suas similaridades e outliers. 
-Foi construída uma base informacional, carregando os arquivos disponibilizados na base pública, filtrando e tratando as informações contidas preparatórias para a análise final utilizando ferramentas de Data Mining.   
-
-### Arquivos disponibilizados
-####licitacoes_criacao_amostras.sql                       ; consulta para consolidação dos dados no banco de dados
-####amostra_cnpj.zip                                      ; arquivo .csv com os dados extraidos consolidados
-####Analise Vencedores Licitaçoes Publicas.pdf            ; resumo das analises realizadas neste trabalho 
-####1-licitacoes_cnpj_analise_exploratoria.ipynb          ; codigo python com analises exploratorias
-####2-licitacoes_cnpj_agrupamento_todas_modalidades.ipynb ; codigo python com analise geral do dataset com todas as modalidade de compra
-####3-licitacoes_cnpj_agrupamento_por_modal_compra.ipynb  ; codigo python com a analie por modalidade de compra
+Foi construída uma base informacional, carregando os arquivos disponibilizados nas bases públicas, realizando tratamentos para transformação dos dados gerando informações para as devidas análises utilizando ferramentas de Data Mining.   
 
 
-Fontes informacionais
----------------------
-
-Para este estudo foram usadas as bases de dados contidas nos portais relacionados abaixo. Não foram usadas quaisquer outras bases de dados que não sejam públicas.
-
-
-Portal da Transparência
-http://www.portaltransparencia.gov.br/download-de-dados
-
-Dados públicos de CNPJ
-https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj
-
-Dados Abertos
-
-https://dados.gov.br/
+### Arquivos Públicos
+Portal da Transparência ( http://www.portaltransparencia.gov.br/download-de-dados )
+Dados públicos de CNPJ ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
+Dados Abertos ( https://dados.gov.br/ )
 
 
+### Estruturação Informacional
+Foram baixados dos site mencionados e carregados os seguintes arquivos para construção de uma base de amostras para executar os testes.
 
-Estruturação Informacional
---------------------------
-
-Foram baixados e carregados os seguintes arquivos para construção de uma base de amostras para executar os testes.
-
-Licitações 
+#### Licitações 
     • ItemLicitação ; lista dos vencedores por licitação
     • Licitações  ; lista de participantes por licitação
       
-
-Sanções
+#### Sanções
     • Empresas Inidoneas
     • Empresas Impedidas
     • Empresas Punidas
     • Acordo Leniencia
 
-Receita Federal
+#### Receita Federal
     • Base completa de CNPJ – referencia nov/2020
     • Dominios: Motivo Situação Cadastral, CNAE e qualificação sócio representante
 
-
-Foi realizado todo um trabalho de carga, tratamento dos campos e informações com as dimensões para transformar os dados e gerar uma saída (tabela/arquivo) para posterior análise.
-
-O período de informações extraídas compreendeu do período jan-out 2020.
+obs: O período de informações extraídas compreendeu do período jan-out 2020.
 
 
 
-Conclusões Finais 
------------------
+#### Conclusões Finais 
 Identificados clusters atraves de similaridades por Modalidades de Compra.
 
 Caso selecionamos outra modalidade ( ou adicionar outros filtros ) o resultado gerado pode ser diferente. Nestes casos sempre serão necessários a reparametrização diferente no DBSCAN.
