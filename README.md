@@ -129,7 +129,7 @@ Após esta etapa chegamos a esse resultado.
 
 No gráfico plotado acima , vemos como os clusters ficaram bem definidos só com estas duas variáveis. 
 
-Assim, como ainda podemos identificar como as segmentações foram criadas.
+Assim, pode ver como as segmentações foram criadas.
 
 ![TabPorPorte](imagens/12.AberturaporPorte.png)
 
