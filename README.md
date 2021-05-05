@@ -3,7 +3,7 @@
 https://github.com/glaucopr/analise-licitacoes/
 
 #### Aluno: Glauco Pires Rabello (glaucorabello@gmail.com) 
-#### Orientador: Felipe Borges (felipe.borges@ele.puc-rio.br)
+#### Orientador: Felipe Borges (prof.felipe@ica.ele.puc-rio.br)
 
 --------------
 
