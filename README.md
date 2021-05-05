@@ -111,7 +111,7 @@ Assim concluímos que os clusters identificados se encaixam “exatamente” com
 
 Foi escolhido a modalidade com maior quantidade de amostras para prosseguimento das analise.
 
-![TotalClusters](imagens/11.TotaisClusters.png)
+![Frequencias](imagens/20.FreqModal.png)
 
 Após a execução do algoritmo DBSCAN foi encontrado este resultado.
 
@@ -157,35 +157,9 @@ Ainda foi percebido que a análise pode ter continuidade, adicionando mais vari�
 
 
 ### Anexos
-#### Dicionario de Dados
-+---------------------+--------------+-----------------------------------------+
-| Field               | Type         | Descricao                               |
-+---------------------+--------------+-----------------------------------------+
-| mesref              | char(6)      | mes de referencia da licitacao          |
-| num_licitacao       | varchar(255) | Número que identifica a licitação SIASG |
-| cod_ug              | varchar(255) | Número do processo da licitação         |
-| dat_resultado       | date         | data do resultado                       |
-| modal_compra        | varchar(255) | modalidade de compra na licitacao       |
-| objeto              | text         | objeto da licitacao                     |
-| cnpj                | varchar(255) | cnpj do licitante vencedor              |
-| tipo_pessoa         | varchar(2)   | tipo de pessoa NO                       |
-| ind_matriz          | char(1)      | indicador matriz ou filial              |
-| razao_social        | varchar(150) | razao social do licitante               |
-| situacao_cadastral  | varchar(8)   | descricao situacao cadastral            |
-| dat_sit_cadastral   | date         | data situacao cadastral                 |
-| ano_sit_cadastral   | int(4)       | ano situacao cadastral                  |
-| motiv_sit_cadastral | varchar(255) | motivo situacaocadastral se nao ativa   |
-| tipo_nat_juridica   | varchar(255) | tipo nat juridica                       |
-| dat_ini_ativ        | date         | data inicio atividade                   |
-| ano_ini_ativ        | int(4)       | ano inicio atividade                    |
-| qualif_resp         | varchar(255) | qualificacao do responsavel da empresa  |
-| setor_cnae          | varchar(255) | setor cadastro CNAE                     |
-| porte_empr          | varchar(13)  | porte empresarial                       |
-| opt_simples         | varchar(11)  | optante pelo simples                    |
-| motiv_impedimento   | varchar(255) | motivo de eventual impedimento          |
-| motiv_punicao       | varchar(255) | motivo punicao                          |
-| motiv_inidonea      | varchar(255) | motivo inidonea                         |  
-+---------------------+--------------+-----------------------------------------+
+#### Dicionario de Dados - 
+1. Tabela tb_amostra_cnpj
+![amostra](imagens/21.tabela.png)
 
 
   
