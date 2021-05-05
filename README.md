@@ -42,7 +42,7 @@ obs: O período de referencia das informações extraídas é de janeiro/2020
 
 Como para este estudo foi necessário carregar grande volume de dados, próprias destas informações, foi necessário reduzir o volume de registros, retirando Pessoas Físicas da analise e reduzindo a amostra em apenas um unico mês de referência.
 
-Uma cópia dos dados tratados estão disponíveis no arquivo amostra_cnpj_202001.zip 
+Uma cópia dos dados tratados estão disponíveis no arquivo amostra_cnpj.zip 
 
 -----------------------------
 ### Análise Exploratória
