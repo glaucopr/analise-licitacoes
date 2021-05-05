@@ -17,14 +17,9 @@ Estudar o comportamento e identificar padrões da base pública dos vencedores d
 Foi construída uma base informacional, carregando os arquivos disponibilizados nestas bases públicas, realizando mais tratamentos para transformações informacionais e utilizando em seguida para as devidas análises utilizando ferramentas de Data Mining.   
 
 
-#### Arquivos Públicos
-1. Portal da Transparência ( http://www.portaltransparencia.gov.br/download-de-dados )
-2. Dados públicos de CNPJ ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
-3. Dados Abertos ( https://dados.gov.br/ )
-
 ------------------------
 ### Estruturação Informacional
-Foram baixados destes sites acima mencionados e carregados no banco de dados os seguintes arquivos para construção de uma base de amostras para executar analises.
+Foram baixados dos sítio de Portal da Transparência e carregados no banco de dados os seguintes arquivos para construção de uma base de amostras para executar analises.
 
 #### Licitações 
     • ItemLicitação ; lista dos vencedores por licitação
@@ -162,12 +157,41 @@ Ainda foi percebido que a análise pode ter continuidade, adicionando mais vari�
   
 ### Bibliografia
 
+* Portal da transparência. Disponível em (http://www.portaltransparencia.gov.br/download-de-dados/)
+* Dados públicos de CNPJ. Disponível em ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
+* Dados Abertos. ( https://dados.gov.br/ )
+
+* O que é Licitação. Disponível em (https://portal.conlicitacao.com.br/o-que-e-licitacao/)
+
+* Géron, Aurélien. Hands-On Machine Learning with Scikit-Learn, Keras ,& TensorFlow. 2 Ed. 2019
+* Provost, Foster; Fawcett, Tom. Data Science para négocios. 1 Ed. Rio de Janeiro. 2016.
+
+* Categorical encoding using Label-Encoding and One-Hot-Encoder. Disponível em (https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd)
+* DBSCAN Python Example: The Optimal Value For Epsilon (EPS). Disponível em (https://towardsdatascience.com/machine-learning-clustering-dbscan-determine-the-optimal-value-for-epsilon-eps-python-example-3100091cfbc)
+* How and why to Standardize your data: A python tutorial. Disponível em (https://towardsdatascience.com/how-and-why-to-standardize-your-data-996926c2c832)
+* How to Combine PCA and K-means Clustering in Python?. Disponível em (https://365datascience.com/tutorials/python-tutorials/pca-k-means/)
+* Principal Component Analysis for Dimensionality Reduction in Python. Disponível em (https://machinelearningmastery.com/principal-components-analysis-for-dimensionality-reduction-in-python/)
+
+
+
+
 
 ### Anexos
 #### Dicionario de Dados 
 1. Tabela tb_amostra_cnpj
 
 ![amostra](imagens/21.tabela.png)
+
+------------------
+
+Matrícula: 191.007.477
+
+Pontifícia Universidade Católica do Rio de Janeiro
+
+Curso de Pós Graduação *Business Intelligence Master*
+
+
+
 
 
   
