@@ -41,7 +41,7 @@ Foram baixados dos site mencionados e carregados os seguintes arquivos para cons
     • Base completa de CNPJ – referencia nov/2020
     • Dominios: Motivo Situação Cadastral, CNAE e qualificação sócio representante
 
-obs: O período de informações extraídas compreendeu do período jan-out 2020.
+obs: O período de referencias das informações extraídas foi de janeiro/2020
 
 
 -----------------------
