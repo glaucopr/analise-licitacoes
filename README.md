@@ -6,7 +6,7 @@
 --------------
 
 ### BI MASTER - Business Inteligence Master - Projeto Final - Maio 2021
-### Pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão". (https://ica.puc-rio.ai/bi-master)
+#### Pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão". (https://ica.puc-rio.ai/bi-master)
 
 --------------
 
@@ -16,9 +16,9 @@ Foi construída uma base informacional, carregando os arquivos disponibilizados 
 
 
 ### Arquivos Públicos
-Portal da Transparência ( http://www.portaltransparencia.gov.br/download-de-dados )
-Dados públicos de CNPJ ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
-Dados Abertos ( https://dados.gov.br/ )
+    Portal da Transparência ( http://www.portaltransparencia.gov.br/download-de-dados )
+    Dados públicos de CNPJ ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
+    Dados Abertos ( https://dados.gov.br/ )
 
 
 ### Estruturação Informacional
