@@ -51,18 +51,95 @@ Para este trabalho foram carregados bases grandes, eventualmente foi necessário
 
 Foi criado um arquivo com estes dados tratados:  amostra_cnpj_202001.zip 
 
-
 -----------------------------
 ### Análise Exploratória
 Nesta etapa, já com os dados carregados no banco de dados, foi realizado fase uma análise inicial para identificar quais dados poderiam ser aproveitadas nas análises seguintes. 
 - Códigos contidos no arquivo 1-licitacoes_cnpj_analise_exploratoria.ipynb
 
-![AnlseExplor1.1](imagens/1.1.analise_exploratoria.png)
-![AnlseExplor1.2](imagens/1.2.analise_exploratoria.png)
-
+![AnlseExplor1](imagens/1.analise_exploratoria.png)
+![AnlseExplor2](imagens/2.analise_exploratoria.png)
 
 Com os dados disponíveis foi iniciada a modelagem  para a identificação de possíveis similaridades.
 
+![Jupyter](imagens/3.AmostraJupyter.png)
+
+----------------------------
+#### Análise variável ‘Modalidade de Compras’
+Como esta variável é a mais importantes do dataset, pois é a que define o motivo da licitação, foi realizado um teste no dataset mantendo esta informação para confirmação.
+
+No processo de construção de modelo, para melhor a analise convertendo as váriaveis categóricas em numéricas por Encoding e depois aplicando o método de PCA.
+
+Nesta etapa descobrimos algumas variáveis que deverão definir este modelo. ( foi escolhido 80% para explicar esses dados )
+
+![VarianciasComPCA](imagens/4.VarianciasPCA.png)
+
+
+####Teste com método K-Means
+Este teste foi gerado para identificar se seria possível usá-lo, pois é um método de fácil implantação. Desta maneira verificamos o K através da inércia do modelo e analisando se o modelo gerado trará bons resultados.
+Após a execução do K-Means, visualmente chegamos a este resultado que pode ser facilmente interpretado como um método ruim para este dataset.
+
+![KMeans](imagens/5.KMeans.png)
+
+####Algoritmo DBSCAN
+
+Escolha deste método por não ter uma quantidade de clusters pré-definidos e encontrar quase toda as formas. 
+
+Através de algumas inferências podemos escolher as parametrizações melhores.
+
+Chegamos a um ótimo resultado desde já. 
+
+![DBSCAN](imagens/6.DBSCAN.png)
+
+Uma reparametrização no algoritmo pode melhorar este resultado para um ajuste fino. Observando que é necessário equilibrar a quantidade de clusters e outliers e as frequências individuais dos clusters.
+
+Alguns outliers gerados foram identificados desta maneira, pois estavam contidos em uma faixa com poucas amostras. Estes outliers também poderiam ser identificados como um pequeno cluster rotulado. 
+
+
+Conforme figura abaixo, podemos questionar a parametrização do modelo e realizar ajustes.
+
+![SegAmostras](imagens/7.ClustersPoucasAmostras.png)
+
+A variável ano_ini_atividade tambem ajudou na identificação de alguns outliers, mas pontos mais isolados.
+
+![Outliers](imagens/8.Outliers.png)
+
+Assim concluímos que os clusters identificados (Gráfico 8) se encaixam “exatamente” com as amostras de Modalidade de Compras. 
+
+![Modalidades](imagens/9.Modalidades.png)
+
+- Códigos disponíveis no arquivo 2-licitacoes_cnpj_agrupamento_todas_modalidades.ipynb
+
+-----------------------
+
+### Analise por Modalidade de Compra
+
+Foi escolhido a modalidade com maior quantidade de amostras para prosseguimento das analise.
+
+Após a execução do algoritmo DBSCAN foi encontrado este resultado.
+
+![ResultadoPregao](imagens/10.ResultadoPorPregao.png)
+
+Foram necessárias várias re-execuções deste algorimo, após a identificação de valores de eps e min amostras, reparametrizando-os, pois foi identificado uma possível melhoraria dos resultados ( menos clusters, menos outliers ) 
+Inicialmente usamos um valor de eps muito baixo cujo resultado ficou bem ruim, com muitos clusters. 
+
+####Análise Resultados
+Após a execução esse resultado foi gerado
+    
+![TotalClusters](imagens/11.TotaisClusters.png)
+
+No gráfico acima, ver no Jupyter, que os clusters ficaram bem definidos com estas duas variáveis. Como ainda pode-se identificar na tabela abaixo que as segmentações foram criadas.
+
+![TabPorPorte](imagens/12.AberturaporPorte.png)
+
+![ResultadoSegmentoPorte](imagens/13.ResultadosporSegmentoPorte.png)
+
+
+#### Outliers
+Da mesma maneira da análise com dataset completo, os clusters gerados tem a mesma caracteristica como identificamos visualmente 
+- A variável ‘ano inicio atividade’ foi um dos fatores de separação;
+- Alguns clusters tem a mesma quantidade de amostras de pequenos outliers abaixo, será necessário algum ajuste fino no algoritmo para incluir alguns destes registros. 
+    
+![OutliersFinal](imagens/14.Outliers.png)
 
 
 -----------------------
