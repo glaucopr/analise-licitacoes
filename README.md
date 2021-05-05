@@ -1,17 +1,18 @@
-# analise-licitacoes
+# Análise dos Vencedores de Licitações Públicas por Agrupamento
 
-BI Master
-Trabalho Final de Conclusão de Curso Bi- Master 
+#### Aluno: Glauco Pires Rabello (https://github.com/glaucopr/analise-licitacoes/)
+#### Orientador: Felipe Borges (felipe.borges@ele.puc-rio.br)
 
-Análise dos Vencedores de Licitações Públicas por Agrupamento
+---
 
-Glauco Pires Rabello       
-Turma 2019.1
+BI MASTER - Business Inteligence Master - Projeto Final - Maio 2021
+Pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão". (https://ica.puc-rio.ai/bi-master)
 
-Tags
-----
-Dados Abertos
-Portal Transparência
+---
+
+### Sumário
+Estudar o comportamento e padrões do dataset dos vencedores das licitações públicas, apontar similaridade e outliers. 
+
 
 
 
