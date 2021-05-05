@@ -77,7 +77,7 @@ Após a execução do K-Means, visualmente chegamos a este resultado que pode se
 
 ![KMeans](imagens/5.KMeans.png)
 
-###Algoritmo DBSCAN
+### Algoritmo DBSCAN
 
 Escolha deste método por não ter uma quantidade de clusters pré-definidos e podemos encontrar quase toda as formas. 
 
@@ -140,6 +140,9 @@ Da mesma maneira da análise com dataset completo, os clusters gerados tem a mes
 ![OutliersFinal](imagens/14.Outliers.png)
 
 
+* Os códigos desta analise estão no arquivo licitacoes_cnpj_agrupamento_por_modal_compra.ipynb
+
+
 -----------------------
 ### Conclusões Finais 
 Identificados clusters atraves de similaridades por Modalidades de Compra.
@@ -157,8 +160,9 @@ Ainda foi percebido que a análise pode ter continuidade, adicionando mais vari�
 
 
 ### Anexos
-#### Dicionario de Dados - 
+#### Dicionario de Dados 
 1. Tabela tb_amostra_cnpj
+
 ![amostra](imagens/21.tabela.png)
 
 
