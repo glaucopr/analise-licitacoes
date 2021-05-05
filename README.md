@@ -47,7 +47,7 @@ Uma cópia dos dados tratados estão disponíveis no arquivo amostra_cnpj.zip
 -----------------------------
 ### Análise Exploratória
 Nesta etapa, já com os dados prontos no banco de dados, foi realizado fase uma análise inicial exploratória para identificar quais dados poderiam ser aproveitadas nas etapas  seguintes. 
-- Códigos contidos no arquivo 1-licitacoes_cnpj_analise_exploratoria.ipynb
+- Códigos contidos no arquivo *1-licitacoes_cnpj_analise_exploratoria.ipynb*
 
 ![AnlseExplor1](imagens/1.analise_exploratoria.png)
 ![AnlseExplor2](imagens/2.analise_exploratoria.png)
@@ -98,7 +98,7 @@ Assim concluímos que os clusters identificados se encaixam “exatamente” com
 
 ![Modalidades](imagens/9.Modalidades.png)
 
-- Códigos disponíveis no arquivo 2-licitacoes_cnpj_agrupamento_todas_modalidades.ipynb
+- Códigos disponíveis no arquivo *2-licitacoes_cnpj_agrupamento_todas_modalidades.ipynb*
 
 -----------------------
 
@@ -139,7 +139,7 @@ Da mesma maneira da análise com dataset completo, os clusters gerados tem a mes
 ![OutliersFinal](imagens/14.Outliers.png)
 
 
-* Os códigos desta analise estão no arquivo 3-licitacoes_cnpj_agrupamento_por_modal_compra.ipynb
+* Os códigos desta analise estão no arquivo *3-licitacoes_cnpj_agrupamento_por_modal_compra.ipynb*
 
 
 -----------------------
