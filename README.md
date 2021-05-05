@@ -157,22 +157,20 @@ Ainda foi percebido que a análise pode ter continuidade, adicionando mais vari�
   
 ### Bibliografia
 
-* Portal da transparência. Disponível em (http://www.portaltransparencia.gov.br/download-de-dados/)
-* Dados públicos de CNPJ. Disponível em ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
-* Dados Abertos. ( https://dados.gov.br/ )
-
-* O que é Licitação. Disponível em (https://portal.conlicitacao.com.br/o-que-e-licitacao/)
-
-* Géron, Aurélien. Hands-On Machine Learning with Scikit-Learn, Keras ,& TensorFlow. 2 Ed. 2019
-* Provost, Foster; Fawcett, Tom. Data Science para négocios. 1 Ed. Rio de Janeiro. 2016.
-
 * Categorical encoding using Label-Encoding and One-Hot-Encoder. Disponível em (https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd)
+* Dados Abertos. ( https://dados.gov.br/ )
 * DBSCAN Python Example: The Optimal Value For Epsilon (EPS). Disponível em (https://towardsdatascience.com/machine-learning-clustering-dbscan-determine-the-optimal-value-for-epsilon-eps-python-example-3100091cfbc)
+* Géron, Aurélien. Hands-On Machine Learning with Scikit-Learn, Keras ,& TensorFlow. 2 Ed. 2019
 * How and why to Standardize your data: A python tutorial. Disponível em (https://towardsdatascience.com/how-and-why-to-standardize-your-data-996926c2c832)
 * How to Combine PCA and K-means Clustering in Python?. Disponível em (https://365datascience.com/tutorials/python-tutorials/pca-k-means/)
+* O que é Licitação. Disponível em (https://portal.conlicitacao.com.br/o-que-e-licitacao/)
 * Principal Component Analysis for Dimensionality Reduction in Python. Disponível em (https://machinelearningmastery.com/principal-components-analysis-for-dimensionality-reduction-in-python/)
+* Provost, Foster; Fawcett, Tom. Data Science para négocios. 1 Ed. Rio de Janeiro. 2016.
 
 
+### Dados 
+* Portal da transparência. Disponível em (http://www.portaltransparencia.gov.br/download-de-dados/)
+* Dados públicos de CNPJ. Disponível em ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
 
 
 
