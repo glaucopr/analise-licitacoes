@@ -18,9 +18,9 @@ Foi construída uma base informacional, carregando os arquivos disponibilizados 
 
 
 #### Arquivos Públicos
-*Portal da Transparência ( http://www.portaltransparencia.gov.br/download-de-dados )
-*Dados públicos de CNPJ ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
-*Dados Abertos ( https://dados.gov.br/ )
+1. Portal da Transparência ( http://www.portaltransparencia.gov.br/download-de-dados )
+2. Dados públicos de CNPJ ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
+3. Dados Abertos ( https://dados.gov.br/ )
 
 
 ------------------------
