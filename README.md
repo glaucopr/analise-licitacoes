@@ -19,7 +19,7 @@ Foi construída uma base informacional, carregando os arquivos disponibilizados 
 
 ------------------------
 ### Estruturação Informacional
-Foram baixados dos sítio de Portal da Transparência e carregados no banco de dados os seguintes arquivos para construção de uma base de amostras para executar analises.
+Foram baixados do sítio de Portal da Transparência e Dados Abertos e carregados no banco de dados os seguintes arquivos para construção de uma base de amostras para executar analises.
 
 #### Licitações 
     • ItemLicitação ; lista dos vencedores por licitação
@@ -174,8 +174,7 @@ Ainda foi percebido que a análise pode ter continuidade, adicionando mais vari�
 
 
 
-### Anexos
-#### Dicionario de Dados 
+### Dicionario de Dados 
 1. Tabela tb_amostra_cnpj
 
 ![amostra](imagens/21.tabela.png)
