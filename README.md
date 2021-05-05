@@ -44,7 +44,7 @@ Foram baixados dos site mencionados e carregados os seguintes arquivos para cons
 obs: O período de referencias das informações extraídas foi de janeiro/2020
 
 
-
+------------------------------
 ### Preparação
 
 Para este trabalho foram carregados bases grandes, eventualmente foi necessário reduzir o volume , retirando Pessoas Físicas da analise e reduzindo a mostra em apenas um unico mês de referência.
@@ -52,11 +52,12 @@ Para este trabalho foram carregados bases grandes, eventualmente foi necessário
 Foi criado um arquivo com estes dados tratados:  amostra_cnpj_202001.zip 
 
 
+-----------------------------
 ### Análise Exploratória
 Nesta etapa, já com os dados carregados no banco de dados, foi realizado fase uma análise inicial para identificar quais dados poderiam ser aproveitadas nas análises seguintes. 
 - Códigos contidos no arquivo 1-licitacoes_cnpj_analise_exploratoria.ipynb
 
-
+![alt text]https://github.com/glaucopr/analise-licitacoes/blob/[branch]/1.1.analise_exploratoria.png?raw=true 
 
 
 -----------------------
