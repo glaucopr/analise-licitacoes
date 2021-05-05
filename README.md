@@ -111,17 +111,19 @@ Assim concluímos que os clusters identificados se encaixam “exatamente” com
 
 Foi escolhido a modalidade com maior quantidade de amostras para prosseguimento das analise.
 
+"Pregão - Registro de Preço"
+
 ![Frequencias](imagens/20.FreqModal.png)
 
 Após a execução do algoritmo DBSCAN foi encontrado este resultado.
 
 ![ResultadoPregao](imagens/10.ResultadoPorPregao.png)
 
-Foram necessárias várias re-execuções deste algorimo, após a identificação de valores de eps e min amostras, reparametrizando-os, pois foi identificado uma possível melhoraria dos resultados ( menos clusters, menos outliers ) 
+Foram necessárias várias re-execuções deste algorimo, como reparametrizações dos valores de eps e min-amostras, pois foi identificado uma possível melhoraria nos resultados ( menos clusters, menos outliers ) 
 Inicialmente usamos um valor de eps muito baixo cujo resultado ficou bem ruim, com muitos clusters. 
 
 ####Análise Resultados
-Após a execução esse resultado foi gerado
+Após esta etapa chegamos a esse resultado.
     
 ![TotalClusters](imagens/11.TotaisClusters.png)
 
@@ -140,7 +142,7 @@ Da mesma maneira da análise com dataset completo, os clusters gerados tem a mes
 ![OutliersFinal](imagens/14.Outliers.png)
 
 
-* Os códigos desta analise estão no arquivo licitacoes_cnpj_agrupamento_por_modal_compra.ipynb
+* Os códigos desta analise estão no arquivo 3-licitacoes_cnpj_agrupamento_por_modal_compra.ipynb
 
 
 -----------------------
