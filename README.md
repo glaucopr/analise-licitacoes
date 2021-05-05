@@ -1,29 +1,26 @@
 # Análise dos Vencedores de Licitações Públicas por Agrupamento
 
-#### Aluno: Glauco Pires Rabello (https://github.com/glaucopr/analise-licitacoes/)
+#### Aluno: Glauco Pires Rabello (glaucorabello@gmail.com)
 #### Orientador: Felipe Borges (felipe.borges@ele.puc-rio.br)
 
----
+--------------
 
-BI MASTER - Business Inteligence Master - Projeto Final - Maio 2021
-Pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão". (https://ica.puc-rio.ai/bi-master)
+### BI MASTER - Business Inteligence Master - Projeto Final - Maio 2021
+### Pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão". (https://ica.puc-rio.ai/bi-master)
 
----
+--------------
 
 ### Sumário
-Estudar o comportamento e padrões do dataset dos vencedores das licitações públicas, apontar similaridade e outliers. 
+Estudar o comportamento e padrões da base pública dos vencedores das licitações públicas, apontar suas similaridades e outliers. 
 
 
-
-
-Arquivos disponibilizados
--------------------------
-licitacoes_criacao_amostras.sql                       ; consulta para consolidação dos dados no banco de dados
-amostra_cnpj.zip                                      ; arquivo .csv com os dados extraidos consolidados
-Analise Vencedores Licitaçoes Publicas.pdf            ; resumo das analises realizadas neste trabalho 
-1-licitacoes_cnpj_analise_exploratoria.ipynb          ; codigo python com analises exploratorias
-2-licitacoes_cnpj_agrupamento_todas_modalidades.ipynb ; codigo python com analise geral do dataset com todas as modalidade de compra
-3-licitacoes_cnpj_agrupamento_por_modal_compra.ipynb  ; codigo python com a analie por modalidade de compra
+### Arquivos disponibilizados
+####licitacoes_criacao_amostras.sql                       ; consulta para consolidação dos dados no banco de dados
+####amostra_cnpj.zip                                      ; arquivo .csv com os dados extraidos consolidados
+####Analise Vencedores Licitaçoes Publicas.pdf            ; resumo das analises realizadas neste trabalho 
+####1-licitacoes_cnpj_analise_exploratoria.ipynb          ; codigo python com analises exploratorias
+####2-licitacoes_cnpj_agrupamento_todas_modalidades.ipynb ; codigo python com analise geral do dataset com todas as modalidade de compra
+####3-licitacoes_cnpj_agrupamento_por_modal_compra.ipynb  ; codigo python com a analie por modalidade de compra
 
 
 
