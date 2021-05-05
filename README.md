@@ -57,7 +57,12 @@ Foi criado um arquivo com estes dados tratados:  amostra_cnpj_202001.zip
 Nesta etapa, já com os dados carregados no banco de dados, foi realizado fase uma análise inicial para identificar quais dados poderiam ser aproveitadas nas análises seguintes. 
 - Códigos contidos no arquivo 1-licitacoes_cnpj_analise_exploratoria.ipynb
 
-!https://github.com/glaucopr/analise-licitacoes/imagens/1.1.analise_exploratoria.png
+![AnlseExplor1.1](imagens/1.1.analise_exploratoria.png)
+![AnlseExplor1.2](imagens/1.2.analise_exploratoria.png)
+
+
+Com os dados disponíveis foi iniciada a modelagem  para a identificação de possíveis similaridades.
+
 
 
 -----------------------
