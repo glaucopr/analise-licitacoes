@@ -12,7 +12,7 @@
 
 ### Sumário
 Estudar o comportamento e padrões da base pública dos vencedores das licitações públicas, apontar suas similaridades e outliers. 
-
+Foi construída uma base informacional, carregando os arquivos disponibilizados na base pública, filtrando e tratando as informações contidas preparatórias para a análise final utilizando ferramentas de Data Mining.   
 
 ### Arquivos disponibilizados
 ####licitacoes_criacao_amostras.sql                       ; consulta para consolidação dos dados no banco de dados
@@ -21,13 +21,6 @@ Estudar o comportamento e padrões da base pública dos vencedores das licitaç�
 ####1-licitacoes_cnpj_analise_exploratoria.ipynb          ; codigo python com analises exploratorias
 ####2-licitacoes_cnpj_agrupamento_todas_modalidades.ipynb ; codigo python com analise geral do dataset com todas as modalidade de compra
 ####3-licitacoes_cnpj_agrupamento_por_modal_compra.ipynb  ; codigo python com a analie por modalidade de compra
-
-
-
-Objetivo
---------
-
-Estudar o comportamento e padrões do dataset dos vencedores das licitações públicas, apontar similaridade e outliers. 
 
 
 Fontes informacionais
