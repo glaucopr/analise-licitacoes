@@ -158,7 +158,6 @@ Ainda foi percebido que a análise pode ter continuidade, adicionando mais vari�
 ### Bibliografia
 
 * Categorical encoding using Label-Encoding and One-Hot-Encoder. Disponível em (https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd)
-* Dados Abertos. ( https://dados.gov.br/ )
 * DBSCAN Python Example: The Optimal Value For Epsilon (EPS). Disponível em (https://towardsdatascience.com/machine-learning-clustering-dbscan-determine-the-optimal-value-for-epsilon-eps-python-example-3100091cfbc)
 * Géron, Aurélien. Hands-On Machine Learning with Scikit-Learn, Keras ,& TensorFlow. 2 Ed. 2019
 * How and why to Standardize your data: A python tutorial. Disponível em (https://towardsdatascience.com/how-and-why-to-standardize-your-data-996926c2c832)
@@ -169,6 +168,7 @@ Ainda foi percebido que a análise pode ter continuidade, adicionando mais vari�
 
 
 ### Dados 
+* Dados Abertos. ( https://dados.gov.br/ )
 * Portal da transparência. Disponível em (http://www.portaltransparencia.gov.br/download-de-dados/)
 * Dados públicos de CNPJ. Disponível em ( https://www.receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/dados-publicos-cnpj )
 
