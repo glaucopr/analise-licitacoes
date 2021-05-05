@@ -122,12 +122,14 @@ Após a execução do algoritmo DBSCAN foi encontrado este resultado.
 Foram necessárias várias re-execuções deste algorimo, como reparametrizações dos valores de eps e min-amostras, pois foi identificado uma possível melhoraria nos resultados ( menos clusters, menos outliers ) 
 Inicialmente usamos um valor de eps muito baixo cujo resultado ficou bem ruim, com muitos clusters. 
 
-####Análise Resultados
+#### Análise dos Resultados
 Após esta etapa chegamos a esse resultado.
-    
+
 ![TotalClusters](imagens/11.TotaisClusters.png)
 
-No gráfico acima, ver no Jupyter, que os clusters ficaram bem definidos com estas duas variáveis. Como ainda pode-se identificar na tabela abaixo que as segmentações foram criadas.
+No gráfico plotado acima , vemos como os clusters ficaram bem definidos só com estas duas variáveis. 
+
+Assim, como ainda podemos identificar como as segmentações foram criadas.
 
 ![TabPorPorte](imagens/12.AberturaporPorte.png)
 
