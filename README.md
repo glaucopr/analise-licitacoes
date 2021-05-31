@@ -3,13 +3,13 @@
 
 #### Aluno: Glauco Pires Rabello (glaucorabello@gmail.com) 
 #### Orientador: Felipe Borges (prof.felipe@ica.ele.puc-rio.br)
-
-- [Link para o código](https://github.com/glaucopr/analise-licitacoes/)
  
 --------------
 
 ### BI MASTER - Business Inteligence Master - Projeto Final - Maio 2021
 #### Pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão". (https://ica.puc-rio.ai/bi-master)
+
+- [Link para o código](https://github.com/glaucopr/analise-licitacoes/)
 
 --------------
 
